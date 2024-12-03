@@ -1,0 +1,42 @@
+/* Center the wrapper */
+#wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto; /* Add space around the visualization */
+  padding: 20px; /* Add padding to prevent text cutoff */
+  max-width: 90%; /* Prevent it from exceeding page width */
+}
+
+/* Chart container */
+#chart {
+  margin: auto;
+  max-width: 100%;
+}
+
+/* Description styling */
+#description {
+  margin: 20px auto;
+  width: 80%;
+  line-height: 1.6;
+  text-align: center;
+}
+
+#description h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#description p {
+  font-size: 16px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+/* Tooltip styling */
+.tooltip {
+  pointer-events: none;
+  z-index: 10;
+  max-width: 200px;
+  text-align: left;
+}
